@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gaming round</title>
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="main">
+    <div style="font-weight: bolder;color: brown;font-size: 30px;">
+      <h1>ROUND <span id="round">1</span></h1>
+      <h2>Team <span id="team">A</span></h2>
+    </div>
+
+    <p style="text-align: center;font-size: 20px;font-weight: 500;padding-left: 600px;"> Select the number of fishes
+      captured</p>
+    <select name="input" id="input">
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select>
+
+  </div>
+  <!--dic for clock -->
+  <div id="app"></div>
+  <br><br>
+  <button onclick="startTimer();" id="start">Start Level</button>
+  <button onclick="reload();">Restart</button><br><br>
+  <div id="table" style="display: none;">
+    <table id="result" >
+      <thead>
+        <tr>
+          <th>Total capture</th>
+          <th>Team A</th>
+          <th>Team B</th>
+          <th>Team C</th>
+          <th>Team D</th>
+          <th>Team A(P/L)</th>
+          <th>Team B(P/L)</th>
+          <th>Team C(P/L)</th>
+          <th>Team D(P/L)</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <span style="font-weight: bolder;color: brown;font-size: 27px; text-align: center;" id="final"></span>
+  <script src="script.js"></script>
+</body>
+
+</html>
