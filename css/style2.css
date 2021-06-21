@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #40B5AD, #008080);
+    padding: 0 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    font-size: 25px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+
+/*---------banner section ----*/
+
+#banner {
+    background-image: linear-gradient(to right, #40B5AD, #008080);
+    color: #fff;
+    padding: top 5%;
+
+}
+
+.promo-title {
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 100px;
+    color: darkslateblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-fluid {
+    padding-top: 30px;
+    padding-left: 40px;
+    height: 180px;
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+#banner.btn-primary {
+    box-shadow: none;
+    padding-left: 20px;
+    padding: 8px 25px;
+    border: none;
+    background-color: white;
+    color: aquamarine;
+}
+
+#banner.btn-primary:hover {
+    background-color: aquamarine;
+    color: white;
+}
+
+
+/*------------------About------------*/
+
+#about-us {
+    background: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#about-us h1 {
+    color: #6082B6;
+    font: bolder;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+/*------------------Rules------------*/
+
+#rules {
+    background: #96DED1;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#rules h1 {
+    color: #6082B6;
+    font: bolder;
+}
+
+#rules ul li {
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
